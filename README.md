@@ -1,6 +1,6 @@
-# ICC Homework Portfolio
+# Training Homework Portfolio
 
-This repository is used to track and showcase homework progress for ICC.
+This repository is used to track and showcase homework progress for Training.
 
 Each homework lives in its own folder and includes the materials or screenshots needed to show successful completion.
 
@@ -19,4 +19,3 @@ Each homework lives in its own folder and includes the materials or screenshots 
 
 - This repository is intended to grow over time as more homework is completed.
 - The current `HW00` submission is a screenshot-based record of setup success.
-
