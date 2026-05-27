@@ -9,13 +9,15 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | Homework | Status | Evidence |
 | --- | --- | --- |
 | [HW00](./HW00/README.md) | Completed | Setup and tool verification screenshots |
+| [HW01](./HW01/README.md) | Completed | Java collections and fundamentals notes from Notion |
 
 ## Repository Structure
 
 - `HW00/`: screenshots and completion evidence for Homework 00
-- Future homeworks can be added as `HW01/`, `HW02/`, `HW03/`, and so on
+- `HW01/`: written responses and Java notes for Homework 01
+- Future homeworks can be added as `HW02/`, `HW03/`, `HW04/`, and so on
 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current `HW00` submission is a screenshot-based record of setup success.
+- The current repository includes a screenshot-based `HW00` and a written `HW01`.
