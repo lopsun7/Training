@@ -13,6 +13,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | [HW02](./HW02/README.md) | Completed | JVM, Java basics, and memory model notes from Notion |
 | [HW03](./HW03/README.md) | Completed | Java exceptions, generics, OOP, and coding exercises from Notion |
 | [HW04](./HW04/README.md) | Completed | Functional interfaces, streams, and async Java notes from Notion |
+| [HW05](./HW05/README.md) | Completed | Java multithreading and CompletableFuture notes from Notion |
 
 ## Repository Structure
 
@@ -21,9 +22,10 @@ Each homework lives in its own folder and includes the materials or screenshots 
 - `HW02/`: Java basics, JVM, GC, and memory model notes
 - `HW03/`: Java exceptions, generics, and coding exercises
 - `HW04/`: functional interfaces, streams, and async Java notes
-- Future homeworks can be added as `HW05/`, `HW06/`, `HW07/`, and so on
+- `HW05/`: Java multithreading, thread pools, and CompletableFuture notes
+- Future homeworks can be added as `HW06/`, `HW07/`, `HW08/`, and so on
 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current repository includes `HW00` through `HW04`.
+- The current repository includes `HW00` through `HW05`.
