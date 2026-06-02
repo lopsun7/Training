@@ -1,0 +1,14 @@
+# Mock 02
+
+This entry records the second mock interview submission video.
+
+## Video Submission
+
+- Recording date: `2026-06-02`
+- Storage: AWS S3
+- Video link: [Open the second mock interview recording](https://amzn-s3-shykid7-bucket.s3.us-east-2.amazonaws.com/mock02.mov?response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGgaCXVzLWVhc3QtMiJIMEYCIQDobGFLTX3BBlx4q61j43PtxlYuO08Ej6n1aqc7qubTpQIhAN9EuMYFGG1b6jWq4CZIGw54VipE4iUAa3eHVgWq7%2BCVKrkDCDEQABoMNDE3ODM1MDE0MTQ1Igz%2FTkZRfAkszKoog50qlgMgLDCkQkDMaVS0FgT5gOkQZ%2Fj1mlDEQykI80xQBUPJIi2G%2Ba3AADqIwDX15UfRSJf8Byif0oaV9i2Bk%2BJRvc%2F04Hqq%2FiJPgFb%2B%2Biyfa3iF4GzKb2rMuEb22KPYuZi43VdjVx6x%2FnEcYdvBfFWYQ10Ul6Kyp5T6Aee5UyIDo4VqEUsHtUWjj7s6oAagoPTuLstLVc6vax%2FnGClL0ZGjlvqu1zpW6WBh38URouEJeL6HsnU34ojAe9Zyr1yuP6%2FBOH987b64lWucgGh6eHxKDN0n%2BW0SoyMN2M9OLt9zA4BzOdda0nwtKWyLfB8gTNM1zkVSGWA%2F%2BT65Q0dTBRLXjejDI%2FjmfGPiHEvfe3JMpxk68KbkCiWykcZJZi0RAwM33rPvpFL221MiTo%2FM9gGZauk2aUH7bpnTLwG4PkmCtmI%2FaLfoJqUlDaLftwIIyc25kRBzOyK9UU2OjJsz9wyNo%2BEKoVAzBbykMuiAC1nv8oP6jxE7te%2BjaUmceCtqAjoWiQkoWC8U0xXit%2B7mU28I5tnparL8BkQsMPDP%2FdAGOt0C0xIyvLe8ZA%2B3UfORMeF%2FNxfgDRu3ogudS1%2BFyUaiXogkohiXt2CqCAOLvRHIcjgtjaIAQIuJ1ot0VxWzCEVWQR20Ot73ktViKj%2BLKwDy%2FJ70QEmUyTUlnEHffz9wMPLP7pW82hqKD05TtT%2FjNBj5HI9PLNJoVhaXwsfoWp%2B8V7QTI%2BSrSVWHLVE6ZsEDc3N0bsAVstp5XMa6C%2FUbcz9IKJVJDc%2BHXA%2FF9hAHwnlqlZleXowkCx5RnKxGoZdZaU31dkZelEfdO5NyoCU5YyXnMm3TDH%2FqKV5KmpAI5z2zn4xVz4O0TODVAqgJmu80rnZ1xaHZ0RmNWrZ0H4HLdM3TY5iKbatFg8odiqb9bgjlP5P737WWSHq%2F1E5a6Cqj5cHhe5PURPKK9uenz%2FjygbXCF2gBLeGXtLLUcrV3WgFEn40JKMBYNnVfpJBrxnSZw9FNQ7X1O5D7pCKm5RZpSQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAWCSHILAAVY7RDJVN%2F20260602%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T233814Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=6e245884a06ced2668909abb22a58574d69649eef0617172728de42db17ee8d3)
+
+## Notes
+
+- This link was provided as an S3 signed URL.
+- Signed URLs may expire or become inaccessible after their validity window ends.
