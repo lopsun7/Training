@@ -14,6 +14,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | [HW03](./HW03/README.md) | Completed | Java exceptions, generics, OOP, and coding exercises from Notion |
 | [HW04](./HW04/README.md) | Completed | Functional interfaces, streams, and async Java notes from Notion |
 | [HW05](./HW05/README.md) | Completed | Java multithreading and CompletableFuture notes from Notion |
+| [HW Handwriting](./HW-handwriting/README.md) | Completed | Scanned handwritten homework pages |
 | [Mock 01](./Mock01/README.md) | Completed | Mock interview response video uploaded to S3 |
 | [Mock 02](./Mock02/README.md) | Completed | Second mock interview response video uploaded to S3 |
 
@@ -25,6 +26,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 - `HW03/`: Java exceptions, generics, and coding exercises
 - `HW04/`: functional interfaces, streams, and async Java notes
 - `HW05/`: Java multithreading, thread pools, and CompletableFuture notes
+- `HW-handwriting/`: handwritten homework pages exported from Notion
 - `Mock01/`: mock interview recording and submission link
 - `Mock02/`: second mock interview recording and submission link
 - Future homeworks can be added as `HW06/`, `HW07/`, `HW08/`, and so on
@@ -32,4 +34,4 @@ Each homework lives in its own folder and includes the materials or screenshots 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current repository includes `HW00` through `HW05`, plus `Mock 01` and `Mock 02`.
+- The current repository includes `HW00` through `HW05`, a handwritten homework entry, plus `Mock 01` and `Mock 02`.
