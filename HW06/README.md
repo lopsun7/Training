@@ -4,6 +4,10 @@ This homework was drafted in Notion and published here as a GitHub-friendly Mark
 
 Source page: [HW 06 on Notion](https://app.notion.com/p/375c5511f06081cbb70bf6e9f968e5f5)
 
+## Recording
+
+- Video link: [HW06.mov](https://amzn-s3-shykid7-bucket.s3.us-east-2.amazonaws.com/HW06.mov?response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMiJIMEYCIQCYKnKwOYuv0foXZER3FAZRF07SmVB0ckEEyFLJkAacEQIhANMMvnRHMFejAY4YG8ez%2BspNEISYTfDECYA9ecBxNhOdKrkDCF0QABoMNDE3ODM1MDE0MTQ1Igz13ieL5JjVA9Uf5OoqlgN0epipSeN5Mc7yXaGb9ek0gKrFZn%2FmgRr3cfp%2BO7MWNeKPC1YI4xuxbEZ27CpUsyNzbPDEpNt0Wnx%2FxXLAkU3bLnpVfJ4%2FmMMrBORRTg4ClSfKkVaj%2BSmS%2Fny9bU71%2BIZyGYkOXrm1L4sL2j0EZgaZMXeErd4hSpG%2BkTvWsxemQoz9jgzdR9KRWpYT8L%2B57wzp8z1PXHmVtJK7zc2Gs5kew7iFsrQz4s8uSStsGZH9QCG2pE1nNvBFb2pMe5mK%2FxOdw39%2BakbsVTW3D6vNQZ7LHivWnvirGIynHYMC%2FVoJSLY%2FeNEIz1RfGnFaM5NgnAqrxYnW48pyKC22ZsdlbDuRXZ9sasAlH3x4fam%2BSjXFKb8CAm4T4UreooNs58U38OWJ5XTbqJYd%2B9GBtd2rThBTStPYb1xveBJIEk3ygsvKOEyh29aLFH481b%2FozoJHNbugW7ncaHVuDVFsQ%2F3ENiSvl5MJpbPo7Xv9EAlR7Wo1%2BLfaeDti%2FQ01wOY9g%2FqVaHALrrbIViyq%2BZGQweJTqWN04PV7tVA%2BMJe7h9EGOt0CUlahqtdVN3ogFSrXd1mCpT4YqKd9FW%2FDnftMUHmhpW4NkAiLJAocujMGTSXZh4KIxXSw6qyxnUy5vaodd%2FR9KU9%2Bop706%2FFydzCAjoTjAVef3Rgmu65rs67sO5vleYRtPKxxlw0ouC1cL7%2BDxNVPEhy8KIUy96OJteGM6ve%2FbP0eJvZNRnz0QBL%2BSoU799bJZ16FT7VTCka1hNm%2B2Nmu60C6ZXZYG%2F4KveSpw72FvwEEXNkcK%2FDlWeHAIPQ9%2F14%2BpIOi70fG9DO%2F7aSuX8Vh4VrX2z8nYyJ5735EDkYMlsF4z5ze%2FQBYVOQCNdZtrBzfAoYr0vabzwfiZzFWXYAOfhkhx594PKIKlcDy8gbpIxKVBTRGEsv%2FHaIdW4p5XR4yN37DQoFMLWo3q9IlVHHj%2BI5HrksuHvIQZWfb30e8VKaOtVj53bq76J47yEE3NwYqW%2F3XEQCqiaz5BwBUmA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAWCSHILAA2ZGHXO5Q%2F20260604%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T202121Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=be54aa485b936d3386401ec5b5f64664ed49deeca54bc100b52b4e12996ad2f5)
+
 ## Homework 6: System Design Concepts Oral Script
 
 ## Opening
@@ -158,4 +162,4 @@ Overall, these concepts help developers build applications that are scalable, re
 
 ## Notes
 
-- The Notion page includes a text note `Recording link: HW06.mov`, but it is not currently a valid public URL.
+- The recording link above is an S3 signed URL and may expire after its validity window ends.
