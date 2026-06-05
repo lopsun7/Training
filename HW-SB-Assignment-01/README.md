@@ -1,10 +1,10 @@
-# HW07
+# HW SB Assignment 01
 
 This homework was drafted in Notion and published here as a GitHub-friendly Markdown page.
 
-Source page: [HW 07 on Notion](https://app.notion.com/p/376c5511f06081c99dbdc240f89f24c3)
+Source page: [HW SB Assignment 01 on Notion](https://app.notion.com/p/376c5511f06081c99dbdc240f89f24c3)
 
-## Homework 7: Spring Boot Student Management Project
+## HW SB Assignment 01: Spring Boot Student Management Project
 
 ### Assignment
 

@@ -15,7 +15,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | [HW04](./HW04/README.md) | Completed | Functional interfaces, streams, and async Java notes from Notion |
 | [HW05](./HW05/README.md) | Completed | Java multithreading and CompletableFuture notes from Notion |
 | [HW06](./HW06/README.md) | Completed | System design concepts oral script from Notion |
-| [HW07](./HW07/README.md) | Completed | Spring Boot student management project submission and repository link |
+| [HW SB Assignment 01](./HW-SB-Assignment-01/README.md) | Completed | Spring Boot student management project submission and repository link |
 | [HW Handwriting](./HW-handwriting/README.md) | Completed | Scanned handwritten homework pages |
 | [Mock 01](./Mock01/README.md) | Completed | Mock interview response video uploaded to S3 |
 | [Mock 02](./Mock02/README.md) | Completed | Second mock interview response video uploaded to S3 |
@@ -29,13 +29,13 @@ Each homework lives in its own folder and includes the materials or screenshots 
 - `HW04/`: functional interfaces, streams, and async Java notes
 - `HW05/`: Java multithreading, thread pools, and CompletableFuture notes
 - `HW06/`: system design concepts oral script
-- `HW07/`: Spring Boot student management project submission
+- `HW-SB-Assignment-01/`: Spring Boot student management project submission
 - `HW-handwriting/`: handwritten homework pages exported from Notion
 - `Mock01/`: mock interview recording and submission link
 - `Mock02/`: second mock interview recording and submission link
-- Future homeworks can be added as `HW08/`, `HW09/`, `HW10/`, and so on
+- Future homeworks can be added as additional folders as needed
 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current repository includes `HW00` through `HW07`, a handwritten homework entry, plus `Mock 01` and `Mock 02`.
+- The current repository includes `HW00` through `HW06`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01` and `Mock 02`.
