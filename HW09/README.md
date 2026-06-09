@@ -337,3 +337,29 @@ The real session data usually lives on the server.
 - `@Component`, `@Service`, `@Repository`, and `@Controller` help Spring discover beans
 - `@RestController` is used for APIs
 - singleton is the default scope, while prototype, request, and session are used for more specific lifecycle needs
+
+## 17. Mock practice recording and script
+
+### Recording
+
+- Mock Practice 01 video: [Mock Practice 01.mov](https://amzn-s3-shykid7-bucket.s3.us-east-2.amazonaws.com/Mock%20Practice%2001.mov?response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA4aCXVzLWVhc3QtMiJGMEQCIGeu%2BUzx%2FjLoSfRY1WQHepBqJ6LvGZ9vahYcoysNtWB%2BAiBdgreGVMTncj37P8l1iiMcrZVQPCwmEHYOCE6NS70wGirCAwjX%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDQxNzgzNTAxNDE0NSIM46WE%2FVxYJk%2BYNDTVKpYDFkXJ1WGFpsJWYxwzjEkgllixpYIZsJkMntI3hbqAMr8enFcDJpIqeGjk8tjkTJS9q8GSdbI9ROSikYyHSEElJpcLaaB4YiR8Pz7FTGsA5HfF4vcunWOkObdiPFiKHSdktGfni7Epxuhr1r2AJLVgs7niryTixm2Hx07f1g0CGCY4Y%2FUyc4WIRAzrce28RJF36t7kW03QP2Yx77VYXXheNIAND79bIu%2Fa5EyqJpGH0ZOePvVc9%2BN7STV6%2F49Zxfvulfxq9HYFYZoIHJI%2FtX9UxWWz8JN1MRcY0lQWqtdn9atkM9ZBi1zZk4hazhaO1ctejrFSVImDUJzWmQgSHl6agqZdlkmh5zVgxyW4YxFR%2FH4Z6V2LCjh633bEiX6iAs1Z2TKOAdwnm2VoVpVmaJJwaLYu3WP1jFxE5BK0CcMEPK3K9%2Bb%2FbIPTLQpeGABbKanruK3U8gI18766VXzwesxDGuPqzIIGYzZuKA6L5IyOSozBGH4dViAu%2FeBnlIE%2B6vgxAfr6%2BbEe5lGCsMKXUHHFeNm4DvfJBTCukaLRBjrfAhPW5B%2BCgygZb4IoGaK%2Box3c5U7bKBXxODeIUrnL9IWr8HpjZlPNwL5EWg%2F2JjzUHz8UYdOTxT9Fnm0Cbf7CUmTAy2bLccNrGaggZTssiAwLr4wuS9cWIkggNPDcOIKLx0lbNB6YBLg1GKzRCSRa5CdbIXuRBmCy%2BHFsOWnxzSSfSKPLQ0gIinan3DK%2Fde7%2Ff0jlxuVe0KYlR89d3PAaAoxbgbUK60mzWbdoB8UkpOR7q2PF6Q%2FDeyEF7UVKsQGyfeR73b8GhWUFtAV1EicUnyoe1Kct69Nl4dp%2FkkIDjIQimqZQZXnN%2B9w75IvFCGzlA7GkpwaNW2SPuvldqHYf00KSkE9Nz3qeoCD2cd0iRV6UephbS06p4QwDDDgXbJtCsuVuBAFj6dqCzRiP4OTc5YsYOUxfwaPsBvsBDE6%2BVngWXsPVAWNLaMPHX2SOOTnIXd7ipp7rsuI9BJ0W8PBMpQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAWCSHILAAYU56PPYG%2F20260609%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T214357Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=a4c60269023c8b9b32290ccae7e891b1844e5178b31942d2ae84d6da05bd6a3d)
+
+### Script 1: What is RESTful API?
+
+RESTful API means an API designed around resources. Each URL represents a resource, and we use HTTP methods to operate on that resource. For example, `GET /users/1` means retrieve a user, `POST /users` means create a user, `PUT /users/1` means update a user, and `DELETE /users/1` means delete a user. A RESTful API should also be stateless, which means every request should contain enough information for the server to process it, without depending on previous requests.
+
+### Script 2: What are `wait()` and `notify()`?
+
+`wait()` and `notify()` are used for thread communication in Java. They are methods from the `Object` class, and they must be used inside a synchronized block or synchronized method. When a thread calls `wait()`, it releases the lock and goes into the waiting state. Another thread can call `notify()` to wake up one waiting thread, or `notifyAll()` to wake up all waiting threads. In practice, I usually use `wait()` inside a `while` loop, not an `if`, because of spurious wakeups and because the condition should be checked again after the thread wakes up.
+
+### Script 3: How does `HashMap` work?
+
+`HashMap` stores key-value pairs using hashing. When we call `put`, `HashMap` first calculates the key's `hashCode()`, then converts that hash into an index in the internal bucket array. If the bucket is empty, it inserts the new entry. If the bucket already has entries, it uses `equals()` to check whether the same key already exists. If the same key exists, it updates the value. If not, it adds a new entry to handle the collision. In Java 8 and later, if too many entries are in the same bucket, the linked list can be converted into a red-black tree. The average time complexity of `get` and `put` is `O(1)`, but the worst case can be `O(n)`, or `O(log n)` when the bucket is treeified.
+
+### Script 4: `GET` vs `POST`
+
+`GET` and `POST` are both HTTP methods. `GET` is mainly used to retrieve data from the server. Parameters are usually passed in the URL, like path variables or query parameters. `GET` should be safe and idempotent, meaning it should not change server state and calling it multiple times should have the same effect. `POST` is used to submit data to the server, usually through the request body. It is commonly used to create resources, like creating a user or placing an order. `POST` is usually not idempotent because sending the same request multiple times may create multiple records.
+
+## 18. Note
+
+- The recording link above is a signed S3 URL and may expire after its validity window ends.
