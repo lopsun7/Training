@@ -272,3 +272,53 @@ Example:
 - `@Qualifier` helps when multiple beans have the same type
 - `@PostConstruct` is for initialization after injection
 - `@PreDestroy` is for cleanup before shutdown
+
+## 10. Mock practice recording and script
+
+### Recording
+
+- Mock Practice 02 video: [Mock Practice 02.mov](https://amzn-s3-shykid7-bucket.s3.us-east-2.amazonaws.com/Mock%20Practice%2002.mov?response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECUaCXVzLWVhc3QtMiJHMEUCIQDMhV8B9z6r7G8weAAfQlpmF6AluLEWMaBYs7FJOVLcZQIgAI29V4R%2F1ZFV7dFxGnzFXAKEOOnSJLfjVSp04SPwXqMqwgMI7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw0MTc4MzUwMTQxNDUiDPYoE8u5BghfL7AhdyqWA9Fv8KwtXWD4VimoL5qEPrZKF4acmAU69kJrhFseVpVx%2B0SM1SPlRQSoWj5XZah3CSvEGhYj87OL413JJsSi%2Fd30mPXuwK3oExg%2Fn2F5F%2F3cgUbqi8%2FqYk34MNlGilNSAOkk9eSMl93QWMY%2BROz6D%2BxgcDilUrWV2PiheN6uzzOgansLp1JTee7L5XrJczkNGKWfjCthwj9E7jY32RJCd%2Bk1AVh1oFGdJZAM0AYSWNp9WGAeogHSc%2FfJWiutx8s9Ln2Q%2BuLU8wg4EQpii7ZRcInLZGANtJz5kdVong%2FascLPNaYoSpHP0hWBAWWVQG3JoOKKAAe4N%2BZmAxc7M5MTUPyONLcEXDDQ5j4Q1IyacLS%2Boc2h%2BpP5NxnIt0jGiD7H%2FzhcmaB%2FI7j1hfNc7SSt2TVOMLvXGDODHJd%2BsbBIdbhpu%2FGuHgi1IYKIzg3CuiJFq2Lrrk0a9W86mLv%2FgI6isAk1iEgPhS5CS43AbtsHnlU6yxntx5ACTC%2BqAlO7dY%2FMdwO3h61Ge%2FahPUW3rHqYreecA2yio7wwiaun0QY63gKNRs9MPejk7Jn9ximxmD2Af5eu%2FULR%2FocS7ber9dafoMDblyNzSHnf8P0%2BkeABVdcOi8HX50bKvdP%2BdVN9aB293DuWXIIL5bO8CEqkPKF5RkGLbkUbsUnTcRAdPF87a4Wf8mezLZwLwNJaw2Ecd%2B7jiO%2BFFOB3tuiKjkdm%2FcHd0hMCFE2zeuPaA4kt95ymjfXzvzRiMa5xHUUakgdJluVqYLPrPtUmUIH7bE%2FQDfsaJeI20sX8pc6kBN%2B%2Bnc95MZuUDA1z3G3N0h2i2DaJTmzXaUaBij9copBTN7PenfGjHkz7E40X4nSrmEd8eGsSuCEk1BAG7aNJ0SOQ4hBQ0dnCVtYR4V8bmTsY%2BPSlrpMT3DK%2FnPxNUdzqDDfFUhn5GxuiMcxjV99KEq%2BdPamAWXmE4LnxT75OODFE4AIHiHXS4JIBVJXP5j3TffUxa5RFqDQkPws8AVpdkhdWMNX1ZQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAWCSHILAA7JCNP4S4%2F20260610%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260610T212523Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=95ac0d297b566587bc6cd601c2231c9ae1b6735c2dd6a09d4de798ad9551b8a6)
+
+### Script 1: Recursion vs Iteration
+
+Recursion means a method calls itself to solve smaller subproblems. Iteration means using loops like `for` or `while`. Recursion is cleaner for tree, DFS, and divide-and-conquer problems, but it uses stack memory. Iteration is usually more efficient and avoids stack overflow.
+
+### Script 2: LinkedHashMap vs HashMap
+
+`HashMap` stores key-value pairs but does not guarantee order. `LinkedHashMap` also stores key-value pairs, but it keeps insertion order by using a linked list. If I only need fast lookup, I use `HashMap`. If I need predictable order, I use `LinkedHashMap`.
+
+### Script 3: How to group people by age
+
+I can use Stream API with `Collectors.groupingBy`. For example, I stream the people list and group by `Person::getAge`, then I get a `Map<Integer, List<Person>>`. The key is age, and the value is people with that age.
+
+### Script 4: How can you use Optional
+
+`Optional` is used to handle possible null values safely. Instead of returning `null`, I can return `Optional<User>`. Then I can use `orElse`, `orElseThrow`, or `map`. It helps avoid `NullPointerException` and makes the code cleaner.
+
+### Script 5: How to write REST API in Spring Boot
+
+I create a controller with `@RestController`, define endpoints with `@GetMapping`, `@PostMapping`, `@PutMapping`, and `@DeleteMapping`. The controller receives the request, calls the service layer, and the service calls the repository layer. Finally, it returns data with proper HTTP status code.
+
+### Script 6: How did you debug
+
+First, I reproduce the issue. Then I check logs, HTTP status code, exception message, and request payload. After that, I narrow it down from controller, service, database, cache, or external API. If needed, I use IntelliJ breakpoint to inspect variables step by step.
+
+### Script 7: What is FairLock
+
+FairLock means threads get the lock in the order they requested it. In Java, `new ReentrantLock(true)` creates a fair lock. It prevents starvation, but performance may be lower. The default unfair lock usually has better throughput.
+
+### Script 8: New features in Java 11
+
+Java 11 added useful String methods like `isBlank`, `strip`, `lines`, and `repeat`. It also introduced the standard HTTP Client. Java 11 is also an LTS version, so many companies use it in production.
+
+### Script 9: Design a task management app
+
+I would design `Task` with fields like `id`, `title`, `description`, `status`, `priority`, `assignee`, and `due date`. Then I create CRUD APIs: create task, get task, update task, delete task, and query tasks by status or assignee. Backend uses controller, service, repository. Database can be MySQL or PostgreSQL, with indexes on status, assignee, and due date.
+
+### Script 10: Locking schema: method1 waits for method2
+
+I can use `wait()` and `notifyAll()`. Method1 checks a shared flag. If the flag is false, it waits. Method2 changes the flag to true and calls `notifyAll()`. I would use `while`, not `if`, because after waking up the thread should check the condition again.
+
+## 11. Note
+
+- The recording link above is a signed S3 URL and may expire after its validity window ends.
