@@ -18,6 +18,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | [HW07](./HW07/README.md) | Completed | Singleton, reflection, HTTP methods, status codes, and idempotency notes |
 | [HW08](./HW08/README.md) | Completed | TCP, UDP, Tomcat, web server, 3-tier architecture, and OSI model notes |
 | [HW09](./HW09/README.md) | Completed | Spring IoC, dependency injection, bean annotations, scopes, and session vs cookie |
+| [HW10](./HW10/README.md) | Completed | AOP, Spring MVC flow, bean containers, autowiring, qualifier, and bean lifecycle hooks |
 | [HW SB Assignment 01](./HW-SB-Assignment-01/README.md) | Completed | Spring Boot student management project submission and repository link |
 | [HW Handwriting](./HW-handwriting/README.md) | Completed | Scanned handwritten homework pages |
 | [Mock 01](./Mock01/README.md) | Completed | Mock interview response video uploaded to S3 |
@@ -35,6 +36,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 - `HW07/`: singleton, reflection, HTTP methods, status codes, and idempotency notes
 - `HW08/`: TCP, UDP, Tomcat, web server, 3-tier architecture, and OSI model notes
 - `HW09/`: Spring IoC, dependency injection, annotations, bean scopes, and session vs cookie
+- `HW10/`: AOP, Spring MVC flow, bean containers, autowiring, qualifier, and bean lifecycle hooks
 - `HW-SB-Assignment-01/`: Spring Boot student management project submission
 - `HW-handwriting/`: handwritten homework pages exported from Notion
 - `Mock01/`: mock interview recording and submission link
@@ -44,4 +46,4 @@ Each homework lives in its own folder and includes the materials or screenshots 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current repository includes `HW00` through `HW09`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01` and `Mock 02`.
+- The current repository includes `HW00` through `HW10`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01` and `Mock 02`.
