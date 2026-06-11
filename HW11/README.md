@@ -559,3 +559,53 @@ For API projects, I usually prefer `@RestControllerAdvice` because:
 - Validation and transactions improve correctness and data safety.
 - Actuator, logging, cache, and async improve observability and system capability.
 - Redis is commonly used in Spring Boot as a fast cache layer.
+
+## Mock Practice 03
+
+### Recording
+
+- Mock Practice 03 video: [Mock Practice 03.mov](https://amzn-s3-shykid7-bucket.s3.us-east-2.amazonaws.com/Mock%20Practice%2003.mov?response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED4aCXVzLWVhc3QtMiJGMEQCIAZlZre3jnBQKr9H1AHcZ6uUasrcvaVIBM9XlkzKS4i5AiB%2B%2BvNHyvlOWZ2ePj2%2BKp80S2yYp487Mhx8DYQoZgfDuyq5AwgHEAAaDDQxNzgzNTAxNDE0NSIMciXamNBYSD0K7MEYKpYDi1rSmQzdO%2BLRSaOmvX6RCBmBvhs%2FL9Kn2j0KTNNlud24%2Be11SGVhL9N%2B1ik8lTOqA26K12R2uMA%2FAgFvgvJ0RYkswKc9A3jzFQDTgcek%2Fcq961L4ZFW9iI4LTfgg2FZTGIAO9a51GBpM8Z2CPD5HX%2FIE%2BfOQ4RIY6lKdVxc4ugVB%2FY54IKLs1zzqScaxCTIp6NxTWaI0EZT3z7KZJL6j44iopPrb45mDETz2ujXSc2bcteJbl2KAxpr%2FCZ9GBLsLOOg244W1GE7VHIMK5yrLTAebQGE06eQfeuLKVlKzBsx95BAlC7P20n6b2ruLt%2B9oX%2FzrWYq8XCwEIqtYK0nV8eEJ7sPYF6o6sKr066THSNMh18DUFFUbVPJGCpY42QLe7bd%2FAxRP1HZOuu%2FvsSwrSAeaC7ZwHplNZdHbnlCyinG0PqWkNO6PxYx2%2B32xFIvO3q4ygwpozQBdZGV5PbYThAXT%2BMe5oJaj5jSTD70%2FJUNPBxdVIH3fji1khECMf8DZxASHaOnzQnsQ12GJ1wxaootaucDbGTCt1qzRBjrfAi7N1XcMpyoOuVZdkhCoUUZ3NF2lP%2BIgQ5wQHg8jlYld%2BZ7YibHP6Rx6hNjUqbW4KaC4CF%2BHIGtIAGoTUbdOyah0zGeahn8%2BreJ5u2CFYC2brrd6cZk6jCDRlHsPe6%2FyABgivkekonzIR3TDpRtG42F%2BQ%2BedsEytBHrLdK482%2FDWDFZjjYk8BtygNmhztBns0OmeDUpe3CSZDdb5%2FgpBBRjEyOnD0Bm65ynqICCzUU8wE%2FXHOyr6wYlvTJaHpOFgxmhDx2vvk2Vl1S0KI8SBo2kv8TuuSoLa5IphR44KZ1taGdkA35a447ZJ8%2BhzsL3nF4NkW%2BoMSC1Z%2Bize3MK8cNm2EZeNh0BgpPnFofoeGVPDWz%2B70Gtvli%2FyMcMyLaK9kKfwxcur03ONayNXixjT8mJ13mOWZAyufOvKwXoEnUQwXbNBOL%2B1GGmBrH%2Brnb1RuNvemYXHyLeYX2kh4EXwVA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAWCSHILAATD2TOKXX%2F20260611%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260611T214511Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=57c99603d4282e6822e7e3687687fd014fce01bc03e416ce778ec6693ed92920)
+
+### Script 1. New features in Java 17
+
+Java 17 is an LTS version. Some important features are sealed classes, records, pattern matching for `instanceof`, switch improvements, and better JVM performance. In real projects, I mostly care about records for DTOs, pattern matching to reduce boilerplate, and sealed classes to control inheritance.
+
+### Script 2. Where did you use Singleton in your project?
+
+I used Singleton for shared service components, like configuration manager, cache manager, or utility clients. In Spring Boot, most beans are Singleton by default, so one service instance is managed by the Spring IoC container and reused across requests.
+
+### Script 3. How to use Stream to filter people younger than 30?
+
+I would use Java Stream with `filter`. For example, `people.stream().filter(p -> p.getAge() < 30).collect(Collectors.toList())`. The `filter` method takes a `Predicate`, which means one input and returns a boolean.
+
+### Script 4. How do you design RESTful APIs to get/create/update an object?
+
+I usually design APIs around resources. For example, for users: `GET /users/{id}` to get one user, `POST /users` to create, `PUT /users/{id}` to fully update, `PATCH /users/{id}` to partially update, and `DELETE /users/{id}` to delete. I also use proper status codes like `200`, `201`, `400`, `404`, and `500`.
+
+### Script 5. New features in Java 11
+
+Java 11 is also an LTS version. Important features include the new HTTP Client API, local variable syntax for lambda parameters, new String methods like `isBlank`, `lines`, `strip`, and `repeat`, and performance improvements. In projects, String utility methods and the HTTP Client are very practical.
+
+### Script 6. Write REST API for User and TodoItem many-to-many CRUD
+
+I would create two entities: `User` and `TodoItem`, with a many-to-many relationship using a join table like `user_todo_item`. Then I would create repository, service, and controller layers. APIs could be `POST /users`, `POST /todo-items`, `GET /users/{id}/todo-items`, `POST /users/{userId}/todo-items/{todoId}` to assign, and `DELETE /users/{userId}/todo-items/{todoId}` to remove the relationship.
+
+### Script 7. What GC parameters do you know? How to change GC parameters?
+
+GC parameters are JVM arguments used to control memory and garbage collection. Common ones are `-Xms` for initial heap size, `-Xmx` for max heap size, `-XX:+UseG1GC`, `-XX:+UseZGC`, and `-Xlog:gc` for GC logs. We can change them in JVM startup options, Docker command, Kubernetes deployment, or application server configuration.
+
+### Script 8. What is SOLID principle?
+
+SOLID is five object-oriented design principles. Single Responsibility means one class has one main responsibility. Open-Closed means open for extension but closed for modification. Liskov Substitution means child classes should replace parent classes safely. Interface Segregation means small specific interfaces are better. Dependency Inversion means depend on abstraction, not concrete classes.
+
+### Script 9. JVM tuning
+
+For JVM tuning, I first check metrics like heap usage, GC frequency, GC pause time, CPU, and thread count. Then I tune heap size with `-Xms` and `-Xmx`, choose a proper GC like `G1` or `ZGC`, enable GC logs, and analyze memory leaks with tools like VisualVM, JConsole, or heap dump. The goal is to reduce latency and avoid OOM.
+
+### Script 10. Can we use customized class as HashMap key?
+
+Yes, we can use a custom class as a `HashMap` key, but we must override `equals()` and `hashCode()` correctly. Also, the key fields should be immutable, because if the key value changes after insertion, `HashMap` may not find it correctly anymore.
+
+## Note
+
+- The recording link above is a signed S3 URL and may expire after its validity window ends.
