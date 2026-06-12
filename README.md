@@ -21,6 +21,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | [HW10](./HW10/README.md) | Completed | AOP, Spring MVC flow, bean containers, autowiring, qualifier, and bean lifecycle hooks |
 | [HW SB Assignment 01](./HW-SB-Assignment-01/README.md) | Completed | Spring Boot student management project submission and repository link |
 | [HW11](./HW11/README.md) | Completed | Spring Boot Project 1 continuation notes and Spring Boot Q&A |
+| [HW12](./HW12/README.md) | Completed | Spring Boot interview question bank, profiles, IoC, AOP, Actuator, and MVC notes |
 | [HW Handwriting](./HW-handwriting/README.md) | Completed | Scanned handwritten homework pages |
 | [Mock 01](./Mock01/README.md) | Completed | Mock interview response video uploaded to S3 |
 | [Mock 02](./Mock02/README.md) | Completed | Second mock interview response video uploaded to S3 |
@@ -40,6 +41,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 - `HW10/`: AOP, Spring MVC flow, bean containers, autowiring, qualifier, and bean lifecycle hooks
 - `HW-SB-Assignment-01/`: Spring Boot student management project submission
 - `HW11/`: Spring Boot project continuation notes, actuator, transactions, async, and Redis basics
+- `HW12/`: Spring Boot interview notes covering profiles, IoC, MVC, AOP, security, Actuator, and transactions
 - `HW-handwriting/`: handwritten homework pages exported from Notion
 - `Mock01/`: mock interview recording and submission link
 - `Mock02/`: second mock interview recording and submission link
@@ -48,4 +50,4 @@ Each homework lives in its own folder and includes the materials or screenshots 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current repository includes `HW00` through `HW11`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01` and `Mock 02`.
+- The current repository includes `HW00` through `HW12`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01` and `Mock 02`.
