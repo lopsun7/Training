@@ -25,6 +25,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | [HW Handwriting](./HW-handwriting/README.md) | Completed | Scanned handwritten homework pages |
 | [Mock 01](./Mock01/README.md) | Completed | Mock interview response video uploaded to S3 |
 | [Mock 02](./Mock02/README.md) | Completed | Second mock interview response video uploaded to S3 |
+| [Mock 03](./Mock03/README.md) | Completed | Third mock interview video and Spring framework question scripts |
 
 ## Repository Structure
 
@@ -45,9 +46,10 @@ Each homework lives in its own folder and includes the materials or screenshots 
 - `HW-handwriting/`: handwritten homework pages exported from Notion
 - `Mock01/`: mock interview recording and submission link
 - `Mock02/`: second mock interview recording and submission link
+- `Mock03/`: third mock interview recording and Spring interview practice scripts
 - Future homeworks can be added as additional folders as needed
 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current repository includes `HW00` through `HW12`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01` and `Mock 02`.
+- The current repository includes `HW00` through `HW12`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01`, `Mock 02`, and `Mock 03`.
