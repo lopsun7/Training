@@ -29,6 +29,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | [Mock 01](./Mock01/README.md) | Completed | Mock interview response video uploaded to S3 |
 | [Mock 02](./Mock02/README.md) | Completed | Second mock interview response video uploaded to S3 |
 | [Mock 03](./Mock03/README.md) | Completed | Third mock interview video and Spring framework question scripts |
+| [Mock 04](./Mock04/README.md) | Completed | Fourth mock interview notes on Singleton, Strategy, microservices, Hibernate, and SQL |
 
 ## Repository Structure
 
@@ -53,9 +54,10 @@ Each homework lives in its own folder and includes the materials or screenshots 
 - `Mock01/`: mock interview recording and submission link
 - `Mock02/`: second mock interview recording and submission link
 - `Mock03/`: third mock interview recording and Spring interview practice scripts
+- `Mock04/`: fourth mock interview notes on design patterns, microservices, and SQL
 - Future homeworks can be added as additional folders as needed
 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current repository includes `HW00` through `HW15`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01`, `Mock 02`, and `Mock 03`.
+- The current repository includes `HW00` through `HW15`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01`, `Mock 02`, `Mock 03`, and `Mock 04`.
