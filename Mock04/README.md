@@ -2,9 +2,15 @@
 
 This entry records the fourth mock interview practice notes, focused on Singleton, Strategy Pattern, microservices, Hibernate, and SQL questions.
 
+## Video Submission
+
+- Recording date: `2026-06-22`
+- Storage: AWS S3
+- S3 object path: `s3://amzn-s3-shykid7-bucket/Mocking 04.mov`
+
 ## Notes
 
-- No recording link was provided in this update.
+- The recording path above is an S3 object path, not a signed browser URL.
 
 ## Mock Scripts
 
