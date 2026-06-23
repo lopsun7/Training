@@ -25,6 +25,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | [HW13](./HW13/README.md) | Completed | SQL vs NoSQL, normalization, ACID, CAP, and SQL query practice |
 | [HW14](./HW14/README.md) | Completed | Indexing, views, SQL tuning, Saga vs 2PC, and EXPLAIN query practice |
 | [HW15](./HW15/README.md) | Completed | JDBC, Hibernate, JPA, ORM lifecycle, joins, and union notes |
+| [HW16](./HW16/README.md) | Completed | Spring Cloud playlist notes on Eureka, Config Server, Ribbon, Sleuth, Hystrix, and Resilience4J |
 | [HW Handwriting](./HW-handwriting/README.md) | Completed | Scanned handwritten homework pages |
 | [Mock 01](./Mock01/README.md) | Completed | Mock interview response video uploaded to S3 |
 | [Mock 02](./Mock02/README.md) | Completed | Second mock interview response video uploaded to S3 |
@@ -50,6 +51,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 - `HW13/`: database concepts and SQL practice with screenshot evidence
 - `HW14/`: indexing, SQL tuning, distributed transaction concepts, and EXPLAIN practice
 - `HW15/`: JDBC, Hibernate, JPA, ORM lifecycle, and SQL join notes
+- `HW16/`: Spring Cloud and microservices video notes
 - `HW-handwriting/`: handwritten homework pages exported from Notion
 - `Mock01/`: mock interview recording and submission link
 - `Mock02/`: second mock interview recording and submission link
@@ -60,4 +62,4 @@ Each homework lives in its own folder and includes the materials or screenshots 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current repository includes `HW00` through `HW15`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01`, `Mock 02`, `Mock 03`, and `Mock 04`.
+- The current repository includes `HW00` through `HW16`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01`, `Mock 02`, `Mock 03`, and `Mock 04`.
