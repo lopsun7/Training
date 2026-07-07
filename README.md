@@ -29,6 +29,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | [HW17](./HW17/README.md) | Completed | Docker, AWS services, system design, and deployment question list |
 | [HW19](./HW19/README.md) | Completed | Virtual Agile team script with team map, day-in-the-life narrative, and interview Q&A |
 | [HW20](./HW20/README.md) | Completed | JUnit, Mockito, JaCoCo, SonarQube, CI/CD, security concepts, and 96.51% test coverage |
+| [HW21](./HW21/README.md) | Completed | Messaging systems, Kafka architecture, consumer lag, retention, partitions, SQS, SNS, and RabbitMQ |
 | [HW Handwriting](./HW-handwriting/README.md) | Completed | Scanned handwritten homework pages |
 | [Mock 01](./Mock01/README.md) | Completed | Mock interview response video uploaded to S3 |
 | [Mock 02](./Mock02/README.md) | Completed | Second mock interview response video uploaded to S3 |
@@ -58,6 +59,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 - `HW17/`: Docker, AWS service, system design, and deployment question list
 - `HW19/`: virtual Agile team design script and interview Q&A
 - `HW20/`: testing, security, JaCoCo, SonarQube, and CI/CD quality gate notes
+- `HW21/`: messaging systems, Kafka, SQS, SNS, and RabbitMQ notes
 - `HW-handwriting/`: handwritten homework pages exported from Notion
 - `Mock01/`: mock interview recording and submission link
 - `Mock02/`: second mock interview recording and submission link
@@ -68,4 +70,4 @@ Each homework lives in its own folder and includes the materials or screenshots 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current repository includes `HW00` through `HW17`, `HW19`, `HW20`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01`, `Mock 02`, `Mock 03`, and `Mock 04`.
+- The current repository includes `HW00` through `HW17`, `HW19`, `HW20`, `HW21`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01`, `Mock 02`, `Mock 03`, and `Mock 04`.
