@@ -31,6 +31,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 | [HW20](./HW20/README.md) | Completed | JUnit, Mockito, JaCoCo, SonarQube, CI/CD, security concepts, and 96.51% test coverage |
 | [HW21](./HW21/README.md) | Completed | Messaging systems, Kafka architecture, consumer lag, retention, partitions, SQS, SNS, and RabbitMQ |
 | [HW22](./HW22/README.md) | Completed | Kafka integration with 3-broker Docker cluster, producer, consumer group, parallel processing, and messaging Q&A |
+| [HW23](./HW23/README.md) | Completed | Angular employee UI, username/password login, Gmail demo login, CRUD integration, and HTML/CSS/JavaScript Q&A |
 | [HW Handwriting](./HW-handwriting/README.md) | Completed | Scanned handwritten homework pages |
 | [Mock 01](./Mock01/README.md) | Completed | Mock interview response video uploaded to S3 |
 | [Mock 02](./Mock02/README.md) | Completed | Second mock interview response video uploaded to S3 |
@@ -62,6 +63,7 @@ Each homework lives in its own folder and includes the materials or screenshots 
 - `HW20/`: testing, security, JaCoCo, SonarQube, and CI/CD quality gate notes
 - `HW21/`: messaging systems, Kafka, SQS, SNS, and RabbitMQ notes
 - `HW22/`: Kafka code integration, 3-broker cluster setup, producer/consumer validation, and messaging Q&A
+- `HW23/`: Angular employee UI integration and front-end fundamentals Q&A
 - `HW-handwriting/`: handwritten homework pages exported from Notion
 - `Mock01/`: mock interview recording and submission link
 - `Mock02/`: second mock interview recording and submission link
@@ -72,4 +74,4 @@ Each homework lives in its own folder and includes the materials or screenshots 
 ## Notes
 
 - This repository is intended to grow over time as more homework is completed.
-- The current repository includes `HW00` through `HW17`, `HW19`, `HW20`, `HW21`, `HW22`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01`, `Mock 02`, `Mock 03`, and `Mock 04`.
+- The current repository includes `HW00` through `HW17`, `HW19`, `HW20`, `HW21`, `HW22`, `HW23`, one Spring Boot assignment entry, a handwritten homework entry, plus `Mock 01`, `Mock 02`, `Mock 03`, and `Mock 04`.
